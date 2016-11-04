@@ -1,0 +1,104 @@
+/**
+ * @author Gustavo García
+ *
+ * This stylesheet apply only for the main window
+ */
+
+/* Action buttons */
+#clear,
+#translate {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px;
+}
+
+#clear {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+#clear:hover {
+    background-color: #fff;
+    color: #f39c12;
+}
+
+#translate {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+#translate:hover {
+    background-color: #fff;
+    color: #16a085;
+}
+
+#clear:focus,
+#translate:focus {
+    outline: none;
+}
+
+/* Text boxes */
+#input,
+#output {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    padding: 10px;
+}
+
+/* Comboboxes */
+#origin-lang,
+#target-lang {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    selection-background-color: #3498db;
+    padding: 6px;
+}
+
+#origin-lang:drop-down,
+#target-lang:drop-down {
+    border: none;
+    width: 25px;
+}
+
+#origin-lang:down-arrow,
+#target-lang:down-arrow {
+    image: url("resources/img/arrow.png");
+}
+
+#input:focus,
+#output:focus,
+#origin-lang:focus,
+#target-lang:focus {
+    border-color: #999;
+}
+
+/* Providers buttons */
+#yandex,
+#google,
+#microsoft {
+    border: 2px solid transparent;
+}
+
+/* Not used */
+#provider-selected {
+  border-color: #2980b9;
+}
+
+/* Status panel */
+#status-panel {
+  background: #2980b9;
+  padding: 0px;
+}
+
+#status-icon {
+  border: none;
+}
+
+#status-lbl {
+  color: #fff;
+}
