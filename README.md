@@ -3,7 +3,7 @@
 Translate text using the most popular available providers.
 
 <p align="center">
-    <img src="https://github.com/guzgarcia/pybabel/extra/screenshot.jpg"/>
+    <img src="https://cdn.rawgit.com/guzgarcia/pybabel/master/extra/screenshot.jpg"/>
 </p>
 
 ## Run from source
@@ -15,7 +15,7 @@ You need to install Python 3.x and PyQt5 to run the application.
 This application is designed to be extensible, all provider-specific behaviour is inyected inside application extending the `AbstractProvider` class. This class only show to `Translator` class two methods: `get_langs` and `translate`. The provider-specific methods must be implemented by him. So, if you want add new providers then you must create a class extending `AbstractProvider` and implement the abstract methods as show the following class diagram:
 
 <p align="center">
-    <img src="https://github.com/guzgarcia/pybabel/extra/class-diagram.jpg"/>
+    <img src="https://cdn.rawgit.com/guzgarcia/pybabel/master/extra/class-diagram.jpg"/>
 </p>
 
 **Methods that providers must implement:**
