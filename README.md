@@ -1,6 +1,6 @@
 # [Pybabel](https://github.com/guzgarcia/pybabel)
 
-Translate text using the most popular available providers.
+Just my first application using QT in Python. It only translate text using the most popular available providers.
 
 <p align="center">
     <img src="https://cdn.rawgit.com/guzgarcia/pybabel/master/extra/screenshot.jpg"/>
